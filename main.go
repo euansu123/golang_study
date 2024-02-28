@@ -74,7 +74,27 @@ func dataTypeFunc() {
 	// 整型浮点数类型转换
 	// datatype.IntTypeConversion2()
 	// 整型字符串类型转换
-	datatype.IntTypeConversion3()
+	// datatype.IntTypeConversion3()
+	// 数组初始化
+	// datatype.ArrayInit()
+	// 数组的遍历
+	// datatype.ArrayTraversal()
+	// 多维数组
+	// datatype.MultiArray()
+	// 创建切片
+	// datatype.NewSlice()
+	// 遍历切片
+	// datatype.TraverseSlice()
+	// 动态增加切片元素
+	// datatype.AddElement()
+	// 切片自动扩容
+	// datatype.AutoExpansion()
+	// 切片的内容复制
+	// datatype.ContentCopy()
+	// 切片动态删除元素
+	// datatype.DynamicDelete()
+	// 切片的数据共享
+	datatype.DataSharing()
 }
 
 func main() {

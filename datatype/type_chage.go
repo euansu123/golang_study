@@ -41,6 +41,7 @@ func StrconvFunc() {
 	v2, _ := strconv.Atoi(v1) // 将字符串转化为整型，v2 = 100
 	v3 := 100
 	v4 := strconv.Itoa(v3) // 将整型转化为字符串, v4 = "100"
+	fmt.Println(v2, v4)
 	v5 := "true"
 	v6, _ := strconv.ParseBool(v5) // 将字符串转化为布尔型
 	v5 = strconv.FormatBool(v6)    // 将布尔值转化为字符串
@@ -52,6 +53,7 @@ func StrconvFunc() {
 	v10 := "99.99"
 	v11, _ := strconv.ParseFloat(v10, 64) // 将字符串转化为浮点型，第二个参数表示精度
 	v10 = strconv.FormatFloat(v11, 'E', -1, 64)
-	q := strconv.Quote("Hello, 世界")       // 为字符串加引号
+	q := strconv.Quote("Hello, 世界") // 为字符串加引号
+	fmt.Println(q)
 	q = strconv.QuoteToASCII("Hello, 世界") // 将字符串转化为 ASCII 编码
 }
